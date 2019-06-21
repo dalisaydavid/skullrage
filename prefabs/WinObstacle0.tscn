@@ -1,0 +1,82 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://prefabs/wall.tscn" type="PackedScene" id=1]
+[ext_resource path="res://prefabs/LevelWinArea.tscn" type="PackedScene" id=2]
+
+[node name="WinObstacle0" type="Node2D" index="0"]
+
+[node name="wall" parent="." index="0" instance=ExtResource( 1 )]
+
+[node name="wall2" parent="." index="1" instance=ExtResource( 1 )]
+
+position = Vector2( 0, -14 )
+
+[node name="wall3" parent="." index="2" instance=ExtResource( 1 )]
+
+position = Vector2( 0, -28 )
+
+[node name="wall13" parent="." index="3" instance=ExtResource( 1 )]
+
+position = Vector2( 0, -43 )
+
+[node name="wall4" parent="." index="4" instance=ExtResource( 1 )]
+
+position = Vector2( 9, -48 )
+rotation = 1.5708
+_sections_unfolded = [ "Transform" ]
+
+[node name="wall5" parent="." index="5" instance=ExtResource( 1 )]
+
+position = Vector2( 23, -48 )
+rotation = 1.5708
+_sections_unfolded = [ "Transform" ]
+
+[node name="wall6" parent="." index="6" instance=ExtResource( 1 )]
+
+position = Vector2( 37, -48 )
+rotation = 1.5708
+_sections_unfolded = [ "Transform" ]
+
+[node name="wall7" parent="." index="7" instance=ExtResource( 1 )]
+
+position = Vector2( 9, 5 )
+rotation = 1.5708
+_sections_unfolded = [ "Transform" ]
+
+[node name="wall8" parent="." index="8" instance=ExtResource( 1 )]
+
+position = Vector2( 23, 5 )
+rotation = 1.5708
+_sections_unfolded = [ "Transform" ]
+
+[node name="wall9" parent="." index="9" instance=ExtResource( 1 )]
+
+position = Vector2( 37, 5 )
+rotation = 1.5708
+_sections_unfolded = [ "Transform" ]
+
+[node name="wall10" parent="." index="10" instance=ExtResource( 1 )]
+
+position = Vector2( 47, 1.43051e-06 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="wall11" parent="." index="11" instance=ExtResource( 1 )]
+
+position = Vector2( 47, -14 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="wall14" parent="." index="12" instance=ExtResource( 1 )]
+
+position = Vector2( 47, -43 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="wall12" parent="." index="13" instance=ExtResource( 1 )]
+
+position = Vector2( 47, -28 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="LevelWinArea" parent="." index="14" instance=ExtResource( 2 )]
+
+position = Vector2( 25, -22 )
+
+
